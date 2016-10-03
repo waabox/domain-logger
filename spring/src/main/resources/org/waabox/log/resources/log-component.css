@@ -1,0 +1,52 @@
+.log-leaf {
+  #position: relative;
+}
+
+.log-leaf .log-child-leaves {
+  display: block;
+  margin-left: 15px;
+}
+
+.log-leaf .hidden {
+  display: none;
+}
+
+.log-leaf .log-expand {
+  background: #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  float: left;
+  height: 10px;
+  line-height: 10px;
+  position: relative;
+  text-align: center;
+  top: 5px;
+  width: 10px;
+}
+
+.log-leaf .hidden {
+  visibility: hidden;
+}
+
+.log-leaf .log-expand:hover {
+  background: #aaa;
+}
+
+.log-leaf .log-leaf-text {
+  cursor: pointer;
+  float: left;
+  margin-left: 5px;
+}
+
+.log-leaf .log-leaf-text:hover {
+  color: blue;
+}
+
+.log-leaf .log-leaf-content:before, .log-leaf .log-leaf-content:after {
+  content: " ";
+  display: table;
+}
+
+.log-leaf .log-leaf-content:after {
+  clear: both;
+}

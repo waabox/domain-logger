@@ -1,0 +1,6 @@
+[
+  {
+   "name" : "testExample",
+   "stack" : "${name}.formulas.${formulaName}"
+  }
+]
